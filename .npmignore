@@ -1,0 +1,65 @@
+# 🐾 Neko-Arc .npmignore
+# Controls what gets published to NPM
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+cypress/
+.cypress/
+
+# Documentation (keep README.md!)
+docs/
+CONTRIBUTING.md
+CHANGELOG.md
+
+# CI/CD
+.github/
+.travis.yml
+.gitlab-ci.yml
+circle.yml
+
+# Environment files (CRITICAL! Rule 3.2)
+.env
+.env.*
+!.env.example
+
+# Private credentials
+*.credentials.json
+secrets.json
+.claude.json.private
+
+# Build artifacts
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Research and planning documents
+*-research.md
+*-planning.md

@@ -1,0 +1,53 @@
+{
+  "name": "@wakibaka/neko-arc",
+  "version": "1.0.0",
+  "description": "Neko-Arc - Enhanced Claude Code configuration with dual personalities (Neko-Arc + Mario Gallo Bestino). Easy installation for powerful AI development assistant.",
+  "main": "index.js",
+  "bin": {
+    "neko-arc": "./bin/neko-arc.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "echo 'Ready to publish Neko-Arc! 🐾'"
+  },
+  "keywords": [
+    "claude-code",
+    "mcp",
+    "neko-arc",
+    "mario-gallo-bestino",
+    "ai-assistant",
+    "mongodb",
+    "puppeteer",
+    "automation",
+    "dual-personality",
+    "developer-tools"
+  ],
+  "author": "wakibaka",
+  "license": "MIT",
+  "type": "commonjs",
+  "files": [
+    "bin/",
+    "lib/",
+    "templates/"
+  ],
+  "dependencies": {
+    "inquirer": "^9.2.0",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wakibaba/neko-arc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wakibaba/neko-arc/issues"
+  },
+  "homepage": "https://github.com/wakibaba/neko-arc#readme"
+}

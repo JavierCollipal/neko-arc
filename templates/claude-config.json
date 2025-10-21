@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "mongodb": {
+      "command": "npx",
+      "args": ["-y", "@harryelv/mongodb-mcp-server"],
+      "env": {
+        "MONGODB_URI": "${MONGODB_URI}",
+        "MONGODB_DATABASE": "${MONGODB_DATABASE}"
+      }
+    },
+    "painter": {
+      "command": "npx",
+      "args": ["-y", "@punkpeye/mcp-painter"]
+    }
+  }
+}
