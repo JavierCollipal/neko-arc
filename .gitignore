@@ -62,3 +62,23 @@ coverage/
 # Private MongoDB configs (if any)
 .claude.json.private
 CLAUDE.md.private
+
+# =============================================
+# 🔐 NPM CREDENTIAL FILES - NEVER COMMIT! 🔐
+# =============================================
+# NPM account credential files (contain real passwords!)
+npm-credentials.txt
+save-npm-credentials-to-db.js
+npm-auto-signup.js
+verify-credentials-storage.js
+npm-login-automation.js
+npm-signup-helper.js
+simple-npm-login-helper.js
+
+# Screenshots that may contain credentials
+npm-signup-filled-*.png
+screenshot-*.png
+
+# Any files with "credentials" in the name
+*credentials*.js
+*credentials*.txt
